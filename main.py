@@ -24,6 +24,9 @@ try:
     input1.send_keys(calc(x))
     button = browser.find_element_by_id('solve')
     button.click()
+
 finally:
-    time.sleep(10)
+    time.sleep(5)
+    time.sleep(5)
+# просто комментарий для проверки гита
 
